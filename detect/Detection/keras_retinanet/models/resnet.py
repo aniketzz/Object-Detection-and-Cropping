@@ -17,8 +17,8 @@ limitations under the License.
 import warnings
 
 import keras
-from imageai.Detection import keras_resnet
-from imageai.Detection.keras_resnet import models
+from detect.Detection import keras_resnet
+from detect.Detection.keras_resnet import models
 from ..models import retinanet
 
 resnet_filename = 'ResNet-{}-model.keras.h5'
