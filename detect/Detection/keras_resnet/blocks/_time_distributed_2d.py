@@ -9,8 +9,8 @@ This module implements a number of popular time distributed two-dimensional resi
 
 import keras.layers
 import keras.regularizers
-from imageai.Detection import keras_resnet
-from imageai.Detection.keras_resnet import layers
+from detect.Detection import keras_resnet
+from detect.Detection.keras_resnet import layers
 
 parameters = {
     "kernel_initializer": "he_normal"
