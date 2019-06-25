@@ -11,8 +11,8 @@ import keras.backend
 import keras.layers
 import keras.models
 import keras.regularizers
-from imageai.Detection import keras_resnet
-from imageai.Detection.keras_resnet import models
+from detect.Detection import keras_resnet
+from detect.Detection.keras_resnet import models
 
 
 class ResNet18(keras.models.Model):
