@@ -12,9 +12,9 @@ import keras.layers
 import keras.models
 import keras.regularizers
 
-from imageai.Detection import keras_resnet as keras_resnet
-from imageai.Detection.keras_resnet import blocks
-from imageai.Detection.keras_resnet import layers
+from detect.Detection import keras_resnet as keras_resnet
+from detect.Detection.keras_resnet import blocks
+from detect.Detection.keras_resnet import layers
 
 
 def TimeDistributedResNet(inputs, blocks, block, include_top=True, classes=1000, freeze_bn=True, *args, **kwargs):
